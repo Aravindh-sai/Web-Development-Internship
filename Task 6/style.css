@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+@font-face {
+    font-family: 'Netflix-sans';
+    src: url('assests/fonts/NetflixSans-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main {
+    background-image: url(assests/images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 92vh;
+    position: relative;
+
+}   
+
+nav {
+    padding-top: 50px;
+    max-width: 80vw;
+    justify-content: space-between;
+    margin:  auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 10vw;
+    height: 40%;
+    position: relative;
+    z-index: 10;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    position: relative;
+    z-index: 10;
+
+}
+
+.hero {
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.lan-btn {
+    background-color: rgba(0, 0, 0, 0.377);
+    border: 1.2px solid rgba(255, 249, 249, 0.364);
+    color: white;
+    border-radius: 2.5px;
+    padding: 8px 25px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 700;
+}
+
+.sign-btn {
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 9px 15px;
+    font-weight: 700;
+}
+
+.sign-btn:hover {
+    cursor: pointer;
+    background-color: rgba(219, 0, 0, 0.996);
+}
+
+.form {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: 92vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.hero h1 {
+    color: white;
+    font-size: 2.9em;
+    font-weight: 900;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.hero p {
+
+    color: white;
+    font-size: 1.7em;
+    font-weight: 400;
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.hero h3 {
+    color: white;
+    font-size: 1.28em;
+    font-weight: 400;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+ .start {
+    margin: 0px 0px 0px 8px;
+    padding: 0.5vw;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+}
+ .inp {
+    padding: 11px 15px 13px;
+    width: 370.05px;
+    background-color: rgba(0, 0, 0, 0.167);
+    border: 0.8px solid rgb(117, 117, 117);
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+ .start:hover {
+    background-color: rgb(171, 8, 8);
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+.section{
+    color: white;
+    max-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.section h2{
+    font-size: 48px;
+    font-weight: 900;
+    max-width: 40vw;
+}
+.section p{
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 36vw;
+    margin-top: 25px;
+}
+.section img{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 40vw;
+}
+
+.feedback{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    margin-top: 5vh;
+}
+.feedback h2{
+    font-weight: 900;
+    font-size: 48px;
+    margin: 20px 0px;
+    text-align: center;
+}
+ .feedback .ques{
+  width: 80vw;
+  height: 11vh;
+  background-color: rgba(110, 110, 110, 0.438);
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+
+}
+.reg p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-weight: 400;
+    margin-top: 5vh;
+    text-align: center;
+
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 90px 0px;
+    gap: 1vh;
+}
+.footer{
+    margin-top: 15vh;
+    padding-bottom: 10vh;
+} 
+.footer p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin-left: 7vw;
+}
+.grid{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns of equal width */
+    grid-template-rows: repeat(4, 1fr);    /* 4 rows of equal height */
+    gap: 15px;
+    column-gap: 5px;   
+    margin-left: 7vw;
+    margin-top: 5vh;
+}
+.brand{
+    color: white;
+    margin-left: 7vw;
+    margin-top: 3vh;
+}
+.footer button{
+    background-color: rgba(0, 0, 0, 0.377);
+    border: 1.2px solid rgba(255, 249, 249, 0.364);
+    color: white;
+    border-radius: 2.5px;
+    padding: 8px 25px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 700;
+    margin-left: 7vw;
+    margin-top: 3vh;
+
+}
+@media (max-width: 800px) {
+    .main {
+        background-position: top center;
+        background-size: cover;
+        width: 100%;
+        height: 52vh;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+    .box{
+        height: 52vh;
+    }
+    .section {
+        flex-direction: column;
+        padding: 25px;
+        max-height: 50vh;
+        max-width: 100%;
+    }
+    .section .info{
+        order: 1;
+    }
+    .section .display{
+        order: 2;
+    }
+    .section .display img{
+        width: 50vw;
+    }
+    .section h2{
+        font-size: 27px;
+        font-weight: 900;
+        text-align: center;
+        max-width: 48vw;
+    }
+    .section p{
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 12.5px;
+        text-align: center;
+        max-width: 48vw;
+    }
+    .form, .flex{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .inp{
+        width: 50vw;
+    }
+    .start{
+        padding: 9px;
+    }
+    .hero h1{
+        font-size: 32px;
+        text-align: center;
+    }
+    .hero p{
+        font-size: 24px;
+        text-align: center;
+    }
+    .hero h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    .logo img{
+        width: 17vw;
+        height: 40%;
+    }
+    .feedback h2{
+        font-size: 32px;
+        font-weight: 700;
+        padding: 15px;
+
+    }
+    .feedback .ques{
+        font-size: 20px;
+        padding: 15px;
+    }
+    .reg{
+        margin: 10px;
+        padding: 10px;
+    }
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 8px;
+    }
+}
+/* Media query for viewports with height less than 880px */
+@media (min-height: 880px) {
+    .main{
+        max-height: 52vh;
+    }
+    .box{
+        max-height: 52vh;
+    }
+  .hero{
+    max-height: 52vh;
+  }
+  .section{
+    max-height: 50vh;
+  }
+  .hero h1{
+    font-size: 28px;
+  }
+  .hero p{
+    font-size: 20px;
+    text-align: center;
+}
+.hero h3{
+    font-size: 18px;
+    text-align: center;
+}
+}
+
+
