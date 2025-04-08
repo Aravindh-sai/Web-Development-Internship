@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .main-box {
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .input-area input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+  }
+
+  .input-area button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .taskBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #fafafa;
+  }
+
+  .taskBox.completed span {
+    text-decoration: line-through;
+    color: gray;
+  }
+
+  .btns {
+    display: flex;
+    gap: 5px;
+  }
+
+  .btns button {
+    border: none;
+    padding: 5px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .doneBtn {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .editBtn {
+    background-color: #ffc107;
+    color: black;
+  }
+
+  .delBtn {
+    background-color: #dc3545;
+    color: white;
+  }
+
+  @media (max-width: 500px) {
+    .input-area {
+      flex-direction: column;
+    }
+
+    .input-area button {
+      width: 100%;
+    }
+  }
