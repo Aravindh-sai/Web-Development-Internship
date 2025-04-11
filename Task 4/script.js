@@ -1,8 +1,8 @@
 const quizData = [
     {
-      question: "What is the capital of France?",
-      options: ["Paris", "London", "Berlin", "Rome"],
-      answer: "Paris"
+      question: "What is the capital of India?",
+      options: ["Delhi", "London", "Berlin", "Rome"],
+      answer: "Delhi"
     },
     {
       question: "Which language is used for web development?",
@@ -10,7 +10,7 @@ const quizData = [
       answer: "JavaScript"
     },
     {
-      question: "Which number is even?",
+      question: "Which number is not odd?",
       options: ["3", "5", "6", "9"],
       answer: "6"
     }

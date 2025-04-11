@@ -29,7 +29,7 @@ allQuestions.forEach(function (singleQuestion) {
             answerBox.style.padding = "10px 25px";
             answerBox.style.fontSize = "18px";
             answerBox.style.color = "white";
-            answerBox.innerText = "This is a sample answer for the question. You can replace this with real content.";
+            answerBox.innerText = "As this is a sample website the content is not available yet.";
 
             singleQuestion.appendChild(answerBox);
         }
